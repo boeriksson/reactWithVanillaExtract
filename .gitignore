@@ -1,0 +1,37 @@
+HELP.md
+target/
+!**/src/main/**
+!**/src/test/**
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### JS ###
+**/node_modules
+**/build
+**/node
+*.log
+*.lockfile
+
+### Storybook ###
+**/storybook-static
+/frontend/coverage/
+
+**/src-gen
+**/target
